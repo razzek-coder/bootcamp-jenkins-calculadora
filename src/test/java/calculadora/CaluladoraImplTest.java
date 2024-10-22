@@ -16,7 +16,7 @@ class CaluladoraImplTest {
 	@Test
 	void calcular_sum_success() {
 		int resultado = calculadora.calcular(1, '+', 2);
-		System.exit(0);
+		Assertions.assertEquals(3, resultado);
 	}
 
 }
