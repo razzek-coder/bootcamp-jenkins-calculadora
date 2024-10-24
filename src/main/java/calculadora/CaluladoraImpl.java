@@ -7,6 +7,8 @@ public class CaluladoraImpl implements Calculadora {
 		switch (op) {
 		case '-':
 			return i1 - i2;
+		case '+':
+   		return i1 + i2;
 		default:
 			return 0;
 		}
